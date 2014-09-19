@@ -1,12 +1,11 @@
 Codebook
 ==================================================================
 
-Human Activity Recognition Using Smartphones Dataset
-==================================================================
+###Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
-Adjustments performed
-========================
+###Adjustments performed
+
 **Activity** was transformed into a factor variable (levels walking, walking upstairs, walking downstair, sitting, standing, and laying).Some of the levels included a "_" and this was removed via substitution.
 
 The **Features** text file provided labels for the columns, but these were altered as follows to provide descriptive labels:
@@ -21,8 +20,7 @@ The variable indicating whether the subject was doing the training or test data 
 
 Each row is an entry for the means of each of the features for each subject's activity. 
 
-Features (i.e., variables or columns)
-=================
+###Features (i.e., variables or columns)
 
 To facilitate comprehension, key variables are bolded.
 
@@ -38,21 +36,37 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. Examples of some of the existing variables are listed below:
 
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyGyro-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
 
 In the original dataset, estimates of these variables (such as mean, maximum, skewness, etc.) were provided. However, for the purposes of this dataset, only the set of variables estimating the mean value and standard deviation were kept. However, the mean frequency (weighted average of the frequency components to obtain a mean frequency) was also kept.
